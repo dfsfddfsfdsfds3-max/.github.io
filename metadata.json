@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Code Solver",
+  "description": "An intelligent application that solves programming problems. Users can either type in their problem or upload an image of it, and the AI will provide a clean, comment-free code solution.",
+  "requestFramePermissions": []
+}
