@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 import type { ImageFile } from '../types';
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = new GoogleGenerativeAI("AIzaSyDFpQ9MhexgViAI54WxkogX7C1SUK57Vp0");
 
 if (!API_KEY) {
   throw new Error("API_KEY environment variable is not set");
